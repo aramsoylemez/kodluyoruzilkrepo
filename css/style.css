@@ -1,0 +1,21 @@
+.header {
+
+  background-color: rgb(210, 30, 42);
+  padding: 10px;
+  margin: auto;
+  display: grid;
+  
+}
+
+body {
+    background-color: rgb(207, 191, 191);
+    margin: auto;
+    text-align:center; 
+    width:460px;
+    text-align: justify;
+}
+
+.about {
+    text-align: justify;
+
+}
