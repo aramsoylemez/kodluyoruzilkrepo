@@ -12,3 +12,15 @@ Insertion Sort'da time complexity bütün elemanların üzerinden geçileceği i
     [5,8,2,9,4,15,6] 3. adım
     [8,2,9,4,15,6]  4. adım
     [2,9,4,15,6] 5. adım
+
+# Merge Sort Projesi
+
+[16,21,11,8,12,22] ikinci arrayimizde merge sort yapacaksak eğer time complexitymiz her seferinde arraydeki elemanları ikiye böldüğümüz yani n/2 yaptığımız için logn olacaktır bunu O(logn) olarak gösterebiliriz. Bizim arrayimiz için bu değer O(log6) olacaktır.
+
+    Örnek bir merging süreci şöyle ilerleyebilir:
+        [16,21,11,8,12,22] 
+    [16,21,11]      [8,12,22]
+[16,21][11]             [8] [12,22]
+[16] [21] [11]              [8] [12] [22]
+[11, 16, 21]                    [8,12,22]
+            [8,11,12,16,21,22]
