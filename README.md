@@ -24,3 +24,14 @@ Insertion Sort'da time complexity bütün elemanların üzerinden geçileceği i
 [16] [21] [11]              [8] [12] [22]
 [11, 16, 21]                    [8,12,22]
             [8,11,12,16,21,22]
+
+# Binary Search Tree Projesi
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizimizi binary search tree olarak düzenleyecek olursak, bunu şimdilik optimal bir şekilde yapmaya çalışalım, karşımıza şöyle bir şey çıkacaktır;
+
+            5
+        3       7   
+     2    4    6  8
+   1               9
+
+   
